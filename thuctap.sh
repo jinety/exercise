@@ -6,7 +6,7 @@ read n
 echo -n "RESULT: "
 if [ `expr $n % 2` == 0 ]
 then
-	echo "$n It is even number"
+	echo "$n It is even number @@"
 else
-	echo "$n It is odd number"
+	echo "$n It is odd number !!"
 fi
